@@ -1,0 +1,20 @@
+.TextTitle {
+    font-size: 3.8em;
+    background: -webkit-gradient(linear, left top, right top, from(blue), to(orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: -1rem;
+}
+
+.TextSubTitle {
+    font-size: 1.2em;
+    color: #73357D;
+    font-family: 'Red Hat Display';
+    text-align: center;
+}
+
+.ContainerTitle {
+    /* align-items: center; */
+}

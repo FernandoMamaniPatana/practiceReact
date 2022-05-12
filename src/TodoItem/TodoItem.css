@@ -1,0 +1,55 @@
+.containerItem {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    box-shadow: 0 0 0.6em rgba(0, 0, 0, 0.2);
+    flex-direction: row;
+    border-width: 0;
+    justify-content: space-between;
+}
+
+.containerIcon {
+    background-image: linear-gradient(to bottom, purple, blue);
+    border-radius: 50%;
+    width: 1.4rem;
+    height: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.containerIconTwo {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 1.1rem;
+    height: 1.1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.containerIconTwoWithLightBlue {
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 1.1rem;
+    height: 1.1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.iconItem {
+    color: #fff;
+}
+
+.text {
+    font-family: 'Red Hat Display';
+    font-size: 0.9rem;
+    margin-left: 10%;
+}

@@ -1,0 +1,4 @@
+.ContainerModalInput {
+    display: flex;
+    flex-direction: column;
+}
