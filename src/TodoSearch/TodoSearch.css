@@ -23,9 +23,10 @@
 .icon {
     width: 1.4rem;
     height: 1.4rem;
-    position: absolute;
+    position: fixed;
+    align-self: flex-end;
     color: #73357D;
-    right: 16%;
+    padding-right: 10px;
     /* margin-left: 34%; */
     /* z-index: 1; */
 }

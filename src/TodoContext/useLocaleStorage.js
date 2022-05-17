@@ -6,14 +6,16 @@ function useLocalStorage(initialValue = null, nameLocalStorage) {
     function initialRequest() {
         setDataStatus({ loading: true, error: false });
         try {
-            const data = localStorage.getItem(nameLocalStorage);
-            if (data) {
-                setValue(JSON.parse(data));
-            }
-            if (!data) {
-                setValue([]);
-            }
-            setDataStatus({ loading: false, error: false });
+            setTimeout(() => {
+                const data = localStorage.getItem(nameLocalStorage);
+                if (data) {
+                    setValue(JSON.parse(data));
+                }
+                if (!data) {
+                    setValue([]);
+                }
+                setDataStatus({ loading: false, error: false });
+            }, 3000);
         } catch (error) {
             setDataStatus({ loading: false, error: true });
         }

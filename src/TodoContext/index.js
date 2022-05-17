@@ -7,6 +7,7 @@ const TodoContext = createContext();
 function TodoProvider(props) {
     const [value, saveValue, dataStatus] = useLocalStorage(null, TODO_LOCAL_STORAGE);
     const [filteredTasks, setFilteredTasks] = useState(null);
+    const [isVisibleModal, setIsVisibleModal] = useState(false);
     const tasks = value;
     useEffect(() => {
         setFilteredTasks(tasks);
@@ -31,6 +32,11 @@ function TodoProvider(props) {
         }
         setSearchValue(e.target.value);
     }
+
+    function changeStatusModal() {
+        setIsVisibleModal(isVisible => !isVisible);
+    }
+
     function onClickTodoAdd(params = "") {
         if (params.length > 0) {
             const newTasks = tasks.concat({
@@ -39,8 +45,10 @@ function TodoProvider(props) {
                 completed: false
             })
             saveValue(newTasks);
+            changeStatusModal();
         }
     }
+
     return (
         <TodoContext.Provider
             value={{
@@ -52,6 +60,8 @@ function TodoProvider(props) {
                 filteredTasks,
                 onClickIconLeft,
                 onClickIconRight,
+                isVisibleModal,
+                changeStatusModal,
             }}
             children={props.children}
         />

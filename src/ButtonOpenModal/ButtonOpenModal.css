@@ -1,0 +1,28 @@
+.ContainerModalButton {
+    width: 60px;
+    height: 60px;
+    background-color: #73357D;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    /* transform: rotateZ(0); */
+    transition: .3s ease;
+    padding: 0;
+    z-index: 1;
+}
+
+.ContainerModalButton:hover {
+    transform: rotateZ(180deg);
+}
+
+.TextModal {
+    color: #fff;
+    font-family: 'Red Hat Display';
+    font-size: 44px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+}
