@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/FernandoMamaniPatana/mytasks/static/css/main.03a30fba.css",
+    "main.js": "/FernandoMamaniPatana/mytasks/static/js/main.ebd3b661.js",
+    "static/media/imageHappyMother.png": "/FernandoMamaniPatana/mytasks/static/media/imageHappyMother.78c926d8fe68dab8c36c.png",
+    "index.html": "/FernandoMamaniPatana/mytasks/index.html",
+    "main.03a30fba.css.map": "/FernandoMamaniPatana/mytasks/static/css/main.03a30fba.css.map",
+    "main.ebd3b661.js.map": "/FernandoMamaniPatana/mytasks/static/js/main.ebd3b661.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03a30fba.css",
+    "static/js/main.ebd3b661.js"
+  ]
+}
