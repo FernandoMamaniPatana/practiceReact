@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mytasks/static/css/main.03a30fba.css",
-    "main.js": "/mytasks/static/js/main.c8df7150.js",
-    "static/media/imageHappyMother.png": "/mytasks/static/media/imageHappyMother.78c926d8fe68dab8c36c.png",
-    "index.html": "/mytasks/index.html",
-    "main.03a30fba.css.map": "/mytasks/static/css/main.03a30fba.css.map",
-    "main.c8df7150.js.map": "/mytasks/static/js/main.c8df7150.js.map"
+    "main.css": "/practiceReact/static/css/main.03a30fba.css",
+    "main.js": "/practiceReact/static/js/main.33e428d9.js",
+    "static/media/imageHappyMother.png": "/practiceReact/static/media/imageHappyMother.78c926d8fe68dab8c36c.png",
+    "index.html": "/practiceReact/index.html",
+    "main.03a30fba.css.map": "/practiceReact/static/css/main.03a30fba.css.map",
+    "main.33e428d9.js.map": "/practiceReact/static/js/main.33e428d9.js.map"
   },
   "entrypoints": [
     "static/css/main.03a30fba.css",
-    "static/js/main.c8df7150.js"
+    "static/js/main.33e428d9.js"
   ]
 }
