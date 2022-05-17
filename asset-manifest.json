@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/practiceReact/mytasks/static/css/main.03a30fba.css",
-    "main.js": "/practiceReact/mytasks/static/js/main.e41147b8.js",
-    "static/media/imageHappyMother.png": "/practiceReact/mytasks/static/media/imageHappyMother.78c926d8fe68dab8c36c.png",
-    "index.html": "/practiceReact/mytasks/index.html",
-    "main.03a30fba.css.map": "/practiceReact/mytasks/static/css/main.03a30fba.css.map",
-    "main.e41147b8.js.map": "/practiceReact/mytasks/static/js/main.e41147b8.js.map"
+    "main.css": "/mytasks/static/css/main.03a30fba.css",
+    "main.js": "/mytasks/static/js/main.c8df7150.js",
+    "static/media/imageHappyMother.png": "/mytasks/static/media/imageHappyMother.78c926d8fe68dab8c36c.png",
+    "index.html": "/mytasks/index.html",
+    "main.03a30fba.css.map": "/mytasks/static/css/main.03a30fba.css.map",
+    "main.c8df7150.js.map": "/mytasks/static/js/main.c8df7150.js.map"
   },
   "entrypoints": [
     "static/css/main.03a30fba.css",
-    "static/js/main.e41147b8.js"
+    "static/js/main.c8df7150.js"
   ]
 }
